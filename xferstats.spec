@@ -12,7 +12,6 @@ Patch0:		xferstats.patch.bz2
 Patch1:		xferstats-2.16-config-loc.patch.bz2
 License:	GPL
 Group:		Monitoring
-BuildRoot:	%{_tmppath}/%{name}-root
 BuildRequires:	glib-devel >= 1.2
 
 %description
