@@ -45,3 +45,40 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/*/*
 %{_datadir}/xferstats
 
+
+
+%changelog
+* Wed Sep 09 2009 Thierry Vignaud <tvignaud@mandriva.com> 2.16-8mdv2010.0
++ Revision: 435116
+- rebuild
+
+* Sun Aug 03 2008 Thierry Vignaud <tvignaud@mandriva.com> 2.16-7mdv2009.0
++ Revision: 262430
+- rebuild
+
+* Thu Jul 31 2008 Thierry Vignaud <tvignaud@mandriva.com> 2.16-6mdv2009.0
++ Revision: 257061
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tvignaud@mandriva.com> 2.16-4mdv2008.1
++ Revision: 130143
+- kill re-definition of %%buildroot on Pixel's request
+- use %%mkrel
+- import xferstats
+
+
+* Thu Jun 02 2005 Nicolas Lécureuil <neoclust@mandriva.org> 2.16-4mdk
+- Rebuild
+
+* Sun Dec 07 2003 Franck Villaume <fvill@freesurf.fr> 2.16-3mdk
+- add BuildRequires glib-devel >= 1.2
+
+* Sun Feb 02 2003 Lenny Cartier <lenny@mandrakesoft.com> 2.16-2mdk
+- rebuild
+
+* Thu Nov 21 2002 Lenny Cartier <lenny@mandrakesoft.com> 2.16-1mdk
+- from Austin Acton <aacton@yorku.ca> :
+	- stole and modified spec from RedHat for Mandrake 9.0

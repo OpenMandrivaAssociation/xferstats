@@ -1,2 +1,4 @@
 sources:
-  "xferstats-2.16.tar.bz2:"	f2daadcfcc402e71a74e8a0b2dbbc2049edb8ad0
+  "xferstats-2.16-config-loc.patch.bz2": 1ffc8b9df48baadadf002c02f4885ebfe95db639
+  "xferstats-2.16.tar.bz2": f2daadcfcc402e71a74e8a0b2dbbc2049edb8ad0
+  "xferstats.patch.bz2": f9a6a1c95e0f8991b9a119704b30f917f8bef650
