@@ -1,6 +1,6 @@
 %define name xferstats
 %define version 2.16
-%define release %mkrel 8
+%define release 9
 
 Summary:	Compiles information about file transfers from logfiles
 Name:		%name
