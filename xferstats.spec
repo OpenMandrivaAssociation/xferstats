@@ -6,7 +6,7 @@ Summary:	Compiles information about file transfers from logfiles
 Name:		%name
 Version:	%version
 Release:	%release
-URL:		http://xferstats.off.net/
+URL:		https://xferstats.off.net/
 Source0:	%{name}-%{version}.tar.bz2
 Patch0:		xferstats.patch.bz2
 Patch1:		xferstats-2.16-config-loc.patch.bz2
